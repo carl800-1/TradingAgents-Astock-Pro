@@ -38,14 +38,14 @@ def run_single(stock: dict, chart: bool = True):
     backtester.print_report(result)
 
     if chart:
-        chart_path = backtester.generate_charts("/Users/frank/TradingAgents-Pro/data", stock["name"])
+        chart_path = backtester.generate_charts("/Users/frank/TradingAgents-Astock-Pro/data", stock["name"])
         if chart_path:
             print(f"  📊 图表: {chart_path}")
 
 def main():
     import argparse
 
-    parser = argparse.ArgumentParser(description="TradingAgents-Pro 回测运行")
+    parser = argparse.ArgumentParser(description="TradingAgents-Astock-Pro 回测运行")
     parser.add_argument("--stock", type=str, default=None, help="股票代码")
     parser.add_argument("--name", type=str, default=None, help="股票名称")
     parser.add_argument("--capital", type=float, default=None, help="初始资金")

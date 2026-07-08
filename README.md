@@ -1,21 +1,21 @@
-# TradingAgents-Pro
+# TradingAgents-Astock-Pro
 
 <p align="center">
   A股多Agent投研框架 · 数据回退 + 回测验证 + AI决策
 </p>
 
 <p align="center">
-  <a href="https://github.com/TauricResearch/TradingAgents"><img alt="基于" src="https://img.shields.io/badge/基于-TauricResearch/TradingAgents-orange"/></a>
-  <a href="https://github.com/simonlin1212/TradingAgents-astock"><img alt="参考" src="https://img.shields.io/badge/参考-astock-blue"/></a>
-  <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-green"/></a>
-  <a href="https://pypi.org/project/tradingagents-pro/"><img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-yellow"/></a>
+  <a href="https://github.com/TauricResearch/TradingAgents"><img alt="基于" src="https://img.shields.io/badge/基于-TauricResearch%2FTradingAgents%20(65K%20⭐)-orange"/></a>
+  <a href="https://github.com/simonlin1212/TradingAgents-astock"><img alt="参考" src="https://img.shields.io/badge/参考-simonlin1212%2Fastock-blue"/></a>
+  <a href="https://img.shields.io/badge/License-Apache%202.0-green"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-green"/></a>
+  <a href="https://img.shields.io/badge/pip%20install%20tradingagents--astock--pro-lightgrey"><img alt="install" src="https://img.shields.io/badge/pip%20install%20tradingagents--astock--pro-lightgrey"/></a>
+  <a href="https://img.shields.io/badge/Python-3.10%2B-yellow"><img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-yellow"/></a>
 </p>
 
----
-
-## 简介
-
-**TradingAgents-Pro** 是一个专为 A 股市场设计的多 Agent 投研框架，基于 [TradingAgents](https://github.com/TauricResearch/TradingAgents) 的多 Agent 辩论架构，深度适配 A 股交易规则、数据源和决策场景。
+<p align="center">
+  基于 <a href="https://github.com/TauricResearch/TradingAgents">TauricResearch/TradingAgents (65K ⭐)</a> 和 <a href="https://github.com/simonlin1212/TradingAgents-astock">simonlin1212/TradingAgents-astock</a> 的 A 股深度特化 fork<br>
+  全 Apache 2.0 开源 · pip install 即跑 · 零外部服务依赖
+</p>
 
 > ⚠️ **免责声明**：本项目仅供学习研究与技术演示，不构成任何投资建议。投资决策请咨询持牌专业机构。
 
@@ -78,8 +78,8 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourname/TradingAgents-Pro.git
-cd TradingAgents-Pro
+git clone https://github.com/carl800-1/TradingAgents-Astock-Pro.git
+cd TradingAgents-Astock-Pro
 
 # 激活 vnpy 环境（或创建新的虚拟环境）
 source ~/vnpy_env/bin/activate
@@ -128,7 +128,7 @@ print(f"质量评分: {quality['quality_score']}")
 ## 项目结构
 
 ```
-TradingAgents-Pro/
+TradingAgents-Astock-Pro/
 ├── agents/                          # 新增 Agent
 │   ├── earnings_analyst.py          # 财报季分析师
 │   ├── sector_rotation_analyst.py   # 行业轮动分析师

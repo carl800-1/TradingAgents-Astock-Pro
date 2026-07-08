@@ -48,7 +48,7 @@ def test_backtest():
 
 def main():
     print("\n" + "=" * 50)
-    print("  TradingAgents-Pro 快速验证")
+    print("  TradingAgents-Astock-Pro 快速验证")
     print("=" * 50 + "\n")
 
     try:
